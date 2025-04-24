@@ -1,0 +1,17 @@
+.logo
+{
+    grid-area: logo;
+    background-color: rgb(127, 158, 41);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav
+{
+    grid-area: nav;
+    background-color: rgb(127, 158, 41);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

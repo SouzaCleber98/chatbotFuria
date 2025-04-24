@@ -37,7 +37,7 @@
     display: grid;
     grid-template: 1fr/ 20% 30% 50%;
     grid-template-areas:
-        "logo space nav";
+        "logo blank nav";
     justify-content: center;
     align-items: center;
 }
@@ -54,7 +54,10 @@
 .footer {
     grid-area: footer;
     background-color: rgb(162, 184, 162);
-    display: flex;
+    display: grid;
+    grid-template: 1fr/ 20% 30% 50%;
+    grid-template-areas:
+        "logo blank nav";
     justify-content: center;
     align-items: center;
 }
