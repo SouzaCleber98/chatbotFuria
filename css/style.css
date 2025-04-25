@@ -1,8 +1,20 @@
 /*Imports*/
 @import url("./header.css");
 @import url("./footer.css");
+@import url("./colors.css");
 
 
+/*Fontes*/
+
+@font-face{
+    font-family: "regular";
+    src: url("../assets/fonts/Inter_24pt-Regular.ttf");
+}
+
+@font-face{
+    font-family: "logo";
+    src: url("../assets/fonts/Inter_28pt-Bold.ttf");
+}
 
 
 /*Css Reset*/
@@ -15,7 +27,7 @@
 html, body {
     height: 100%;
     width: 100%;
-    font-family: Arial, sans-serif;
+    font-family: "regular";
     font-size: 16px;
     line-height: 1.5;
 }
@@ -49,9 +61,10 @@ html, body {
 .header {
     grid-area: header;
     display: grid;
-    grid-template: 1fr/ 20% 30% 50%;
+    grid-template: 90% 10%/ 20% 30% 50%;
     grid-template-areas:
-        "logo header-content nav";
+        "logo blank nav"
+        "header-content header-content header-content";
     justify-content: center;
     align-items: center;
 }
@@ -76,31 +89,5 @@ html, body {
 
 
 
-/*Esquema de Cores*/
-
-.black
-{
-    background-color: black;
-    color: white;
-    
-}
-
-.white
-{
-    background-color: white;
-    color: black;
-}
-
-.red
-{
-    background-color: red;
-    color: white;
-}
-
-.green
-{
-    background-color: green;
-    color: white;
-}
 
 

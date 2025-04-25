@@ -1,0 +1,30 @@
+:root {
+    --cor-links: gray;
+  }
+
+/*Esquema de Cores*/
+
+.dark
+{
+    background-color: rgb(41, 41, 41);
+    color: white;
+    
+}
+
+.white
+{
+    background-color: rgba(255, 255, 255, 0.911);
+    color: black;
+}
+
+.red
+{
+    background-color: red;
+    color: white;
+}
+
+.gray
+{
+    background-color: gray;
+    color: white;
+}
