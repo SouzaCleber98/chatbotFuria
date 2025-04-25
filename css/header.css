@@ -1,17 +1,22 @@
-.logo
-{
-    grid-area: logo;
-    background-color: rgb(127, 158, 41);
+/*Header Areas*/
+
+.logo,
+.header-content,
+.nav {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
-.nav
-{
+.logo {
+    grid-area: logo;
+}
+
+.header-content {
+    grid-area: header-content;
+}
+
+.nav {
     grid-area: nav;
-    background-color: rgb(127, 158, 41);
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }

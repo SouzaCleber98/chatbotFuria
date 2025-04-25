@@ -1,13 +1,27 @@
+/*Imports*/
 @import url("./header.css");
+@import url("./footer.css");
 
 
-/*Css Global*/
 
+
+/*Css Reset*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/*Css Normalize*/
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+/*Css Global*/
 
 
 .flex {
@@ -20,7 +34,6 @@
 }
 
 .grid {
-    background-color: aqua;
     display: grid;
     grid-template: 15% 70% 15% / 1fr;
     grid-template-areas:
@@ -31,13 +44,14 @@
     width: 100%;
 }
 
+
+/*Principais Areas*/
 .header {
     grid-area: header;
-    background-color: rgb(182, 196, 201);
     display: grid;
     grid-template: 1fr/ 20% 30% 50%;
     grid-template-areas:
-        "logo blank nav";
+        "logo header-content nav";
     justify-content: center;
     align-items: center;
 }
@@ -45,7 +59,6 @@
 
 .main {
     grid-area: main;
-    background-color: lightcoral;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,11 +66,41 @@
 
 .footer {
     grid-area: footer;
-    background-color: rgb(162, 184, 162);
     display: grid;
     grid-template: 1fr/ 20% 30% 50%;
     grid-template-areas:
-        "logo blank nav";
+        "copyright footer-content address";
     justify-content: center;
     align-items: center;
 }
+
+
+
+/*Esquema de Cores*/
+
+.black
+{
+    background-color: black;
+    color: white;
+    
+}
+
+.white
+{
+    background-color: white;
+    color: black;
+}
+
+.red
+{
+    background-color: red;
+    color: white;
+}
+
+.green
+{
+    background-color: green;
+    color: white;
+}
+
+

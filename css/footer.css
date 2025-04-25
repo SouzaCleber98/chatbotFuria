@@ -1,17 +1,21 @@
-.logo
-{
-    grid-area: logo;
-    background-color: rgb(127, 158, 41);
+/* Footer Areas */
+
+.copyright,
+.footer-content,
+.address {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.nav
-{
-    grid-area: nav;
-    background-color: rgb(127, 158, 41);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.copyright {
+    grid-area: copyright;
+}
+
+.footer-content {
+    grid-area: footer-content;
+}
+
+.address {
+    grid-area: address;
 }
