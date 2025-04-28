@@ -2,16 +2,16 @@
 @import url("./header.css");
 @import url("./footer.css");
 @import url("./colors.css");
-
-
+@import url("./main.css");
+@import url("./botMessage.css");
 /*Fontes*/
 
-@font-face{
+@font-face {
     font-family: "regular";
     src: url("../assets/fonts/Inter_24pt-Regular.ttf");
 }
 
-@font-face{
+@font-face {
     font-family: "logo";
     src: url("../assets/fonts/Inter_28pt-Bold.ttf");
 }
@@ -23,8 +23,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /*Css Normalize*/
-html, body {
+html,
+body {
     height: 100%;
     width: 100%;
     font-family: "regular";
@@ -86,8 +88,3 @@ html, body {
     justify-content: center;
     align-items: center;
 }
-
-
-
-
-

@@ -39,19 +39,37 @@
             </div>
             <nav class="nav">
                 <ul>
-                    <li><a href="https://x.com/FURIA" target="_blank" >X</a></li>
-                    <li><a href="https://www.instagram.com/furiagg/?hl=pt" target="_blank" >Instagram</a></li>
-                    <li><a href="https://www.furia.gg/" target="_blank" >Loja</a></li>
-                  </ul>          
+                    <li><a href="https://x.com/FURIA" target="_blank">X</a></li>
+                    <li><a href="https://www.instagram.com/furiagg/?hl=pt" target="_blank">Instagram</a></li>
+                    <li><a href="https://www.furia.gg/" target="_blank">Loja</a></li>
+                </ul>
             </nav>
         </header>
 
         <!-- Main -->
         <main class="main">
-            <p>Conteúdo principal aqui</p>
+            <div class="chat-container">
+                <div class="chat-messages">
+                    <!-- As mensagens aparecem aqui -->
+                </div>
+                <div class="chat-input">
+                    <input type="text" id="user-input" placeholder="Digite sua mensagem..." />
+                    <button id="send-button">Enviar</button>
+                </div>
+                <div class="chat-buttons">
+                    <button class="quick-btn" id="jogadores-btn">Jogadores</button>
+                    <button class="quick-btn" id="informacoes-time-btn">Informações do Time</button>
+                    <button class="quick-btn" id="fundadores-btn">Fundadores da FURIA</button>
+                    <button class="quick-btn" id="conquistas-btn">Conquistas</button>
+                    <button class="quick-btn" id="sede-btn">Sede da FURIA</button>
+                    <button class="quick-btn" id="curiosidades-btn">Curiosidades</button>
+                    <button class="quick-btn" id="clear-chat-btn">Limpar Chat</button>
+                </div>
+            </div>
         </main>
 
         <!-- Footer -->
+
         <footer class="footer dark">
             <div class="copyright">
                 <p>&copy; 2025 Cleber Souza. Todos os direitos reservados.</p>
@@ -66,6 +84,14 @@
             </address>
         </footer>
     </div>
+
+
+    <!--Scripts -->
+    <script type="module" src="./assets/js/chatbot.js"></script>
+
+
+
+
 </body>
 
 
