@@ -16,9 +16,10 @@
 .header-content {
     grid-area: header-content;
 }
-.header-content h1{
+
+.header-content h1 {
     margin-bottom: 10px;
-   
+
 }
 
 .nav {
@@ -27,7 +28,7 @@
 
 }
 
-.logo-text{
+.logo-text {
     font-family: "logo";
     font-size: 30px;
     margin: 10px;
@@ -52,6 +53,7 @@
     border-radius: 20px;
     transition: all 0.3s ease-in-out;
 }
+
 .nav ul li a:hover {
     border: 5px solid white;
 }

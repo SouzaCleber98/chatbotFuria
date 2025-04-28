@@ -1,0 +1,64 @@
+{
+    "active": [
+        {
+            "id": "yuurih",
+            "name": "Yuri Boian",
+            "join_date": "2017-11-08",
+            "position": "",
+            "country": "Brazil"
+        },
+        {
+            "id": "KSCERATO",
+            "name": "Kaike Cerato",
+            "join_date": "2018-02-06",
+            "position": "",
+            "country": "Brazil"
+        },
+        {
+            "id": "FalleN",
+            "name": "Gabriel Toledo",
+            "join_date": "2023-07-03",
+            "position": "Captain",
+            "country": "Brazil"
+        },
+        {
+            "id": "molodoy",
+            "name": "Danil Golubenko",
+            "join_date": "2025-04-11",
+            "position": "",
+            "country": "Kazakhstan"
+        },
+        {
+            "id": "YEKINDAR",
+            "name": "Mareks Gačinskis",
+            "join_date": "2025-04-22",
+            "position": "Stand-in",
+            "country": "Latvia"
+        },
+        {
+            "id": "sidde",
+            "name": "Sidnei Macedo",
+            "join_date": "2024-07-09",
+            "position": "Coach",
+            "country": "Brazil"
+        }
+    ],
+    "inactive": [
+        {
+            "id": "skullz",
+            "name": "Felipe Medeiros",
+            "join_date": "2024-07-09",
+            "inactive_date": "2025-04-22",
+            "position": "",
+            "country": "Brazil"
+        },
+        {
+            "id": "chelo",
+            "name": "Marcelo Cespedes",
+            "join_date": "2023-07-03",
+            "inactive_date": "2025-04-11",
+            "position": "",
+            "country": "Brazil"
+        }
+    ]
+}

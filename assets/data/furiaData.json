@@ -1,0 +1,38 @@
+{
+    "team": {
+        "name": "FURIA Esports",
+        "founded": "8 de agosto de 2017",
+        "founders": [
+            {
+                "name": "Jaime Pádua",
+                "role": "Empresário e CEO",
+                "bio": "Empresário brasileiro que idealizou a FURIA, liderando o projeto desde sua fundação."
+            },
+            {
+                "name": "André Akkari",
+                "role": "Co-fundador e Investidor",
+                "bio": "Jogador profissional de pôquer e empresário, reconhecido por sua contribuição ao pôquer brasileiro."
+            },
+            {
+                "name": "Cris Guedes",
+                "role": "Co-fundador e Investidor",
+                "bio": "Empresário com visão estratégica, co-fundador da FURIA e envolvido em diversas iniciativas da organização."
+            }
+        ],
+        "headquarters": [
+            "Uberlândia, MG",
+            "São Paulo, SP",
+            "Mellieħa, Malta"
+        ],
+        "achievements": [
+            "Melhor organização de e-sports no Prêmio eSports Brasil em 2020 e 2021.",
+            "Quinta maior organização de e-sports do mundo em 2022, segundo o portal Nerd Street.",
+            "Participação em torneios internacionais de diversos jogos como CS:GO, Rocket League, Valorant, entre outros."
+        ],
+        "fun_facts": [
+            "A FURIA foi uma das primeiras organizações brasileiras a firmar um contrato com a ESL Pro League.",
+            "Em 2024, a FURIA estreou na modalidade de futebol 7, participando da Kings World Cup da Kings League.",
+            "Em 2025, anunciou oficialmente seu time de futebol 7, com a presidência de Cris Guedes e Neymar."
+        ]
+    }
+}

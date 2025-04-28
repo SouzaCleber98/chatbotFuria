@@ -20,11 +20,11 @@
 .address {
     grid-area: address;
     justify-content: flex-end;
-    padding: 0 40px;   
+    padding: 0 40px;
 
 }
 
-.address a{
+.address a {
     margin-left: 5px;
     border-radius: 20px;
     border: 5px solid var(--cor-links);

@@ -1,28 +1,28 @@
 .message {
-    padding: 8px 12px;
-    margin: 8px;
-    border-radius: 10px;
-    max-width: 60%;
-    word-wrap: break-word;
-  }
+  padding: 8px 12px;
+  margin: 8px;
+  border-radius: 10px;
+  max-width: 60%;
+  word-wrap: break-word;
+}
 
-.user,
+.user {
+  background-color: rgb(109, 173, 11);
+  align-self: flex-end;
+  text-align: right;
+}
+
 .bot {
-    background-color: var(--cor-links);
-  }
-  .user {
-    align-self: flex-end;
-    text-align: right;
-  }
-  .bot {
-    align-self: flex-start;
-    text-align: left;
-  }
-  .chat-messages {
-    display: flex;
-    flex-direction: column;
-    overflow-y: auto;
-    height: 300px;
-    border: 1px solid #f70e0e;
-    padding: 10px;
-  }
+  background-color: var(--cor-links);
+  align-self: flex-start;
+  text-align: left;
+}
+
+.chat-messages {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  height: 300px;
+  border: 1px solid #f70e0e;
+  padding: 10px;
+}
