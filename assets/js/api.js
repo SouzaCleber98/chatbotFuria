@@ -1,6 +1,6 @@
 export async function loadLocalFuriaPlayers() {
   try {
-    const response = await fetch('../assets/data/furiaTime.json'); // Caminho para o arquivo JSON local
+    const response = await fetch('assets/data/furiaTime.json'); // Caminho para o arquivo JSON local
     const jsonData = await response.json(); // Parse do JSON
 
 
@@ -17,7 +17,7 @@ export async function loadLocalFuriaPlayers() {
 
 export async function loadTeamInfo() {
   try {
-    const response = await fetch('../assets/data/furiaData.json');
+    const response = await fetch('assets/data/furiaData.json');
     const jsonData = await response.json();
 
     if (jsonData && jsonData.team) {
