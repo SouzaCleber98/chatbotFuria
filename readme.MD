@@ -17,9 +17,11 @@ Este projeto é um chatbot interativo para fãs da FURIA, uma organização bras
 
 ```plaintext
 /
-├── audio/                  # (Reservado para sons do bot)
+
 │
 ├── assets/
+|   ├── audio/              # (Reservado para sons do bot)
+|   |
 │   ├── data/               # Dados locais em JSON
 │   │   ├── furiaData.json
 │   │   └── furiaTime.json
@@ -43,7 +45,11 @@ Este projeto é um chatbot interativo para fãs da FURIA, uma organização bras
 │   ├── main.css
 │   └── style.css
 │
-└── index.html              # Página HTML principal
+├── index.html             # Página HTML principal
+|
+├── LICENSE                # Licença MIT
+|
+└── readme.MD              # Arquivo readme.MD
 
 ```
 
